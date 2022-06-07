@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task</title>
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body class="body">
+    <header class="header-main">
+        <h1 class="header-main__head">Нoмера и цены</h1>
+    </header>
+    <main>
+        <ul class="main">
+            <li class="main__room">
+                <picture>
+                    <source srcset="./images/catalog/desktop/first.jpg" media="(min-width: 951px)" />
+                    <source srcset="./images/catalog/tablet/first.jpg" media="(max-width: 950px)" />
+                    <source srcset="./images/catalog/mobile/first.jpg" media="(max-width: 700px)" />
+                    <img src="./images/catalog/desktop/first.jpg" alt="комната представительского люкса с рабочим местом" />
+                </picture>
+                <div class="main__info">
+                    <div class="main__main-header">
+                        <h2 class="main__head">Представительский люкс</h2>
+                        <p class="main__text">Эксклюзивный номер с панорамным видом на центр города Москвы</p>
+                    </div>
+                    <div class="main__main-footer">
+                        <div class="main__price">
+                            <p class="main__price-desc">Цена за сутки</p>
+                            <div class="main__price-sum">
+                                <p class="main__price-from">от</p>
+                                <p class="main__price-amount">7 900</p>
+                                <p class="main__price-icon">₽</p>
+                            </div>
+                        </div>
+                        <div class="main__book">
+                            <button class="button">Забронировать</button>
+                        </div>
+                    </div>
+                    <div class="reserved">
+                        <p class="reserved__text">Номер зарезервирован <br> Перейти к <span class="span">оплате</span></p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="main__room">
+                <picture>
+                    <source srcset="./images/catalog/desktop/second.jpg" media="(min-width: 951px)" />
+                    <source srcset="./images/catalog/tablet/second.jpg" media="(max-width: 950px)" />
+                    <source srcset="./images/catalog/mobile/second.jpg" media="(max-width: 700px)" />
+                    <img src="./images/catalog/desktop/second.jpg" alt="комната дуплекс с дизайном в синей цветовой гамме" />
+                </picture>
+                <div class="crumbs">
+                    <p>Гарантия лучшей цены!</p>
+                </div>
+                <div class="main__info">
+                    <div class="main__main-header">
+                        <h2 class="main__head">Дуплекс</h2>
+                        <p class="main__text">Просторный двухкомнатный номер с шикарным видом на парк</p>
+                    </div>
+                    <div class="main__main-footer">
+                        <div class="main__price">
+                            <p class="main__price-desc">Цена за сутки</p>
+                            <div class="main__price-sum">
+                                <p class="main__price-from">от</p>
+                                <p class="main__price-amount">5 700</p>
+                                <p class="main__price-icon">₽</p>
+                            </div>
+                        </div>
+                        <div class="main__book">
+                            <button class="button">Забронировать</button>
+                        </div>
+                    </div>
+                    <div class="reserved">
+                        <p class="reserved__text">Номер зарезервирован <br> Перейти к <span class="span">оплате</span></p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="main__room">
+                <picture>
+                    <source srcset="./images/catalog/desktop/third.jpg" media="(min-width: 951px)" />
+                    <source srcset="./images/catalog/tablet/third.jpg" media="(max-width: 950px)" />
+                    <source srcset="./images/catalog/mobile/third.jpg" media="(max-width: 700px)" />
+                    <img src="./images/catalog/desktop/third.jpg" alt="бизнес-люкс со всеми необходимыми удобствами" />
+                </picture>
+                <div class="main__info">
+                    <div class="main__main-header">
+                        <h2 class="main__head">Бизнес-люкс</h2>
+                        <p class="main__text">Трёхкомнатный номер с панорамным видом на Москва-реку</p>
+                    </div>
+                    <div class="main__main-footer">
+                        <div class="main__price">
+                            <p class="main__price-desc">Цена за сутки</p>
+                            <div class="main__price-sum">
+                                <p class="main__price-from">от</p>
+                                <p class="main__price-amount">4 900</p>
+                                <p class="main__price-icon">₽</p>
+                            </div>
+                        </div>
+                        <div class="main__book ">
+                            <button class="button ">Забронировать</button>
+                        </div>
+                    </div>
+                    <div class="reserved">
+                        <p class="reserved__text">Номер зарезервирован <br> Перейти к <span class="span">оплате</span></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="./index.js "></script>
+</body>
+
+</html>
